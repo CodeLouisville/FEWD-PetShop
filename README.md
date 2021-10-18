@@ -2,6 +2,7 @@
 
 This is a sample design for Code Louisville's Front-End Web Developmenmt pathway. The following sample mockup can be used as is or as a wireframe/template for your own project. Please discuss your project with a mentor if you have any questions.
 
+--
 
 ### Project Brief:
 
@@ -11,6 +12,8 @@ Please reveiw the included PDF Mockup up the proposed website design. [cl-petsho
 
 Individual .png files of the mockups are in [assets/mockups](https://github.com/CodeLouisville/FEWD-PetShop/tree/main/assets/mockups).
 
+
+--
 
 ### Project Scope
 
@@ -24,6 +27,7 @@ The Paws City Pet Supply Co. needs a new website (home page) built with the newe
 
 - Footer with contact form.
 
+--
 
 ### Project Requirements:
 
@@ -33,6 +37,8 @@ Full Requirements can be found: [FEWD Project Requirements](XXXXXXX)
 
 Please ask your mentors if you have any questions on project requirements.
 
+
+--
 
 **Features Expected:**
 
