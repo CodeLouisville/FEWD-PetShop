@@ -1,6 +1,6 @@
 # Introduction:
 
-This is a sample design for Code Louisville's Front-End Web Developmenmt pathway. The following sample mockup can be used as is or as a wireframe/template for your own project. Please discuss your project with a mentor if you have any questions.
+This is a sample design for Code Louisville's Front-End Web Development pathway. The following sample mockup can be used as is or as a wireframe/template for your own project. Please discuss your project with a mentor if you have any questions.
 
 --
 
@@ -8,9 +8,11 @@ This is a sample design for Code Louisville's Front-End Web Developmenmt pathway
 
 This is a single home page mockup, no interior pages are needed or required.
 
-Please reveiw the included PDF Mockup up the proposed website design. [cl-petshop-overview.pdf](https://github.com/CodeLouisville/FEWD-PetShop/blob/main/CL-Petshop-Overview.pdf)
+Please reveiw the included PDF Mockup up the proposed website design: [cl-petshop-overview.pdf](https://github.com/CodeLouisville/FEWD-PetShop/blob/main/CL-Petshop-Overview.pdf)
 
 Individual .png files of the mockups are in [assets/mockups](https://github.com/CodeLouisville/FEWD-PetShop/tree/main/assets/mockups).
+
+All photos, icons, logos, and fonts are located in [assets/mockups](https://github.com/CodeLouisville/FEWD-PetShop/tree/main/assets/).
 
 
 --
@@ -31,7 +33,7 @@ The Paws City Pet Supply Co. needs a new website (home page) built with the newe
 
 ### Project Requirements:
 
-Create a simgle page website for your final project, that meets the current Front-End Web Developement Project Requirements.
+Create a single page website for your final project, that meets the current Front-End Web Developement Project Requirements.
 
 Full Requirements can be found: [FEWD Project Requirements](XXXXXXX)
 
