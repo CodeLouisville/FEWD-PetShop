@@ -29,6 +29,10 @@ The Paws City Pet Supply Co. needs a new website (home page) built with the newe
 
 Create a simgle page website for your final project, that meets the current Front-End Web Developement Project Requirements.
 
+Full Requirements can be found: [FEWD Project Requirements](XXXXXXX)
+
+Please ask your mentors if you have any questions on project requirements.
+
 
 **Features Expected:**
 
@@ -42,25 +46,13 @@ Create a simgle page website for your final project, that meets the current Fron
 
 - Best efforts at Semantic HTML
 
-- Best efforst at basic accessibility (alt tags, colors, sizes, etc...) 
+- Best efforts at basic accessibility (alt tags, colors, sizes, etc...) 
 
 
+#
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+------- 
 
 **Photo Credits:**
 
