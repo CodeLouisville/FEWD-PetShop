@@ -49,10 +49,7 @@ Please ask your mentors if you have any questions on project requirements.
 - Best efforts at basic accessibility (alt tags, colors, sizes, etc...) 
 
 
-#
-
-
-------- 
+---
 
 **Photo Credits:**
 
