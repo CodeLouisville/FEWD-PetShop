@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://use.fontawesome.com/ed8838ef79.js"></script>
+
     <title>PetShop</title>
 </head>
 <body>
@@ -15,61 +17,78 @@
         </div>
         <div class="banner">
             <img src="assets/logos/pawscity-logo.png" alt="Paws City Pet Supply Co. Logo" class="logo">
-            <!-- Search Bar -->
+            <div class="search">
+                <input type="text" class="search-box" placeholder="SEARCH...">
+                <button type="submit" class="search-btn"><i class="fa fa-search" aria-hidden="true"></i></button>
+            </div>
         </div>
-        <nav>
+        <!-- Might need to go in body / hero-section -->
+        <nav> 
             <ul>
-                <li>DOGS</li>
-                <li>CATS</li>
-                <li>BIRDS</li>
-                <li>FISH</li>
-                <li>REPTILES</li>
+                <li><a href="#" class="li-dog">DOGS</a></li>
+                <li><a href="#" class="li-cat">CATS</a></li>
+                <li><a href="#" class="li-bird">BIRDS</a></li>
+                <li><a href="#" class="li-fish">FISH</a></li>
+                <li><a href="#" class="li-rep">REPTILES</a></li>
             </ul>
         </nav>
     </header>
     <div class="hero-section">
-        <!-- NAV Menu Hamburger -->
         <!-- Background Image puppy-hero-bg -->
-        <h1 class="">THE BEST CARE FOR YOUR LITTLE ONE</h1>
-        <p>Dashchund tail release boxer pomsky dog house, chew toy heel chow chow queak toy. St. bernard shake shih tzu leave it husky.</p>
+        <div class="hero-img-container">
+            <img src="assets/photos/puppy-hero-bg.jpg" alt="Puppy" class="pup-hero">
+        </div>
+        <div class="hero-text-div">
+            <img src="assets/photos/menu-icon.svg" alt="Navigation Menu" class="nav-btn">
+            <h1 class="hero-title">THE BEST CARE FOR YOUR LITTLE ONE</h1>
+            <p>Dashchund tail release boxer pomsky dog house, chew toy heel chow chow queak toy. St. bernard shake shih tzu leave it husky.</p>
+            <button type="button" class="schedule-btn">SCHEDULE</button>
+        </div>
+        
         <!-- Schedule Button -->
     </div>
-    <div class="species-section">
-        <div class="dogs-card"> 
-            <!-- Background Image dogs -->
-            <h1>DOGS</h1>
-            <p>This is the title...</p>
-            <!-- shop btn -->
+    <div class="pet-cards">
+        <div class="dog-img card-size">
+            <div class="card-content">
+                <h2 class="card-title">DOGS</h2>
+                <p class="card-body">This is some text...</p>
+                <a href="#" class="shop-btn">SHOP NOW</a>
+            </div>
         </div>
-        <div class="cats-card">
-            <!-- Background Image dogs -->
-            <h1>CATS</h1>
-            <p>This is the title...</p>
-            <!-- shop btn -->
+        <div class="cat-img card-size">
+            <div class="card-content">
+                <h2 class="card-title">CATS</h2>
+                <p class="card-body">This is some text...</p>
+                <a href="#" class="shop-btn">SHOP NOW</a>
+            </div>
         </div>
-        <div class="birds-card">
-            <!-- Background Image dogs -->
-            <h1>FISH</h1>
-            <p>This is the title...</p>
-            <!-- shop btn -->
+        <div class="bird-img card-size">
+            <div class="card-content">
+                <h2 class="card-title">BIRDS</h2>
+                <p class="card-body">This is some text...</p>
+                <a href="#" class="shop-btn">SHOP NOW</a>
+            </div>
         </div>
-        <div class="fish-card">
-            <!-- Background Image dogs -->
-            <h1>BIRDS</h1>
-            <p>This is the title...</p>
-            <!-- shop btn -->
+        <div class="fish-img card-size">
+            <div class="card-content">
+                <h2 class="card-title">FISH</h2>
+                <p class="card-body">This is some text...</p>
+                <a href="#" class="shop-btn">SHOP NOW</a>
+            </div>
         </div>
-        <div class="reptiles-card">
-            <!-- Background Image dogs -->
-            <h1>REPTILES</h1>
-            <p>This is the title...</p>
-            <!-- shop btn -->
+        <div class="reptile-img card-size">
+            <div class="card-content">
+                <h2 class="card-title">REPTILES</h2>
+                <p class="card-body">This is some text...</p>
+                <a href="#" class="shop-btn">SHOP NOW</a>
+            </div>
         </div>
     </div>    
     <div class="about-doggo">
         <!-- Background Colo #074980 + doggo-photo -->
         <h2>ABOUT DOGGO</h2>
         <p>Doggorino borking doggo boof length boy, adorable doggo dat tungg tho. Fluffer doge boofers big ol pupper blep fat boi the neighborhood pupper, very good spot lotsa pats big ol you are doing me the shock. wrinkler boofers porgo corgo bork much ruin deit, aqua doggo.</p>
+        <img src="assets/photos/doggo-photo.png" alt="Doggo Photo" class="about-img">
     </div>
     <div class="top-recommendations">
         <!-- Background color #eff3f7 -->
@@ -79,28 +98,28 @@
         </div>
         <div class="tr-card-section">
             <div class="tr-card">
-                <img src="assets/photos/dog-hoodie.jpg" alt="Dog Hoodie"  class="tr-card-px">
+                <img src="assets/photos/dog-hoodie.jpg" alt="Dog Hoodie"  class="tr-card-px-1">
                 <h3>DOG HOODIE</h3>
                 <p>$9.99</p>
-                <!-- ADD TO CART btn -->
+                <a href="#" class="cart-btn">ADD TO CART</a>
             </div>
             <div class="tr-card">
-                <img src="assets/photos/dog-hoodie-2.jpg" alt="Red Dog Hoodie" class="tr-card-px">
+                <img src="assets/photos/dog-hoodie-2.jpg" alt="Red Dog Hoodie" class="tr-card-px-2">
                 <h3>RED DOG HOODIE</h3>
                 <p>$39.99</p>
-                <!-- ADD TO CART btn -->
+                <a href="#" class="cart-btn">ADD TO CART</a>
             </div>
             <div class="tr-card">
-                <img src="assets/photos/dog-banana-2.jpg" alt="Banana PJ Set"  class="tr-card-px">
+                <img src="assets/photos/dog-banana-2.jpg" alt="Banana PJ Set"  class="tr-card-px-2">
                 <h3>BANANA PJ SET</h3>
                 <p>$19.99</p>
-                <!-- ADD TO CART btn -->
+                <a href="#" class="cart-btn">ADD TO CART</a>
             </div>
             <div class="tr-card">
-                <img src="assets/photos/dog-fries.jpg" alt="Dog Pillow Bed"  class="tr-card-px">
+                <img src="assets/photos/dog-fries.jpg" alt="Dog Pillow Bed"  class="tr-card-px-1">
                 <h3>PILLOW BED</h3>
                 <p>$29.99</p>
-                <!-- ADD TO CART btn -->
+                <a href="#" class="cart-btn">ADD TO CART</a>
             </div>
         </div>
     </div>
@@ -108,7 +127,7 @@
         <!-- Background color #f85c62 -->
         <img src="assets/photos/about-pawscity.jpg" alt="Open Sign" class="open-sign">
         <div class="about-text-section">
-            <h1>ABOUT PAWS CITY</h1>
+            <h1>ABOUT PAWS CITY PET SUPPLY CO.</h1>
             <p>Paws City is a fine retailer that offers goods for your pets: cats and dogs, fish, rabbits, birds, and many other animals. We sell pet food, supplies, clothes, and different products by the best American and European manufacturers. We are pet lovers, just like you, and pick only the best and high-quality good</p>
         </div>    
     </div>
@@ -117,9 +136,9 @@
             <h3>TESTIMONIALS BY OUR CLIENTS</h3>
             <p>We're happy with each review you leave! Thank you for your trust.</p>
         </div>
-        <div class="test-card">
+        <div class="text-card">
             <!-- Circle Image -->
-            <img src="assets/photos/testimonial-elaineb.jpg" alt="Testimonial Picture">
+            <img src="assets/photos/testimonial-elaineb.jpg" alt="Testimonial Picture" class="test-px">
             <div class="test-card-text">
                 <p>"I often order food for my cat from this store as they offer free shipping. The prices here are quite low, and you can order a lot of great goods by top manufacturers."</p>
             </div>
@@ -128,26 +147,32 @@
             </div>
         </div>
     </div>
-    <div class="contact-section">
+    <div class="corp-section">
         <!-- Background color #a77bca -->
         <div class="corp-address">
-            <h3>CORPORATE</h3>
+            <h2>CORPORATE</h2>
             <h4>1234 W. MAIN ST.</h4>
             <h4>LOUISVILLE, KY 40213</h4>
             <h4>P:502-555-555</h4>
             <h4>E:hello@pawcity.com</h4>   
         </div>
         <div class="social">
-            <!-- icons and links -->
+            <h2>SOCIAL</h2>
+            <div class="social-icons">
+                <!-- social icons -->
+            </div>
         </div>
+    </div>
         <div class="contact-section">
-            <h3>CONTACT</h3>
-            <form>
-                <!-- Name:
-                     Email:
-                     Message: w/ Text Box
-                     Send btn -->
-            </form>
+            <h2>CONTACT</h2>
+            <div class="contact-form">
+                <form>
+                    <input type="text" class="name" name="name" placeholder="JOHN DOE"> 
+                    <input type="text" class="email" id="email" name="email" placeholder="jdoe@gmail.com">
+                    <textarea id="subject" name="message" placeholder="Please send us a message..."></textarea>
+                    <button type="submit" value="Submit" class="submit">SEND MESSAGE</button>
+                </form>
+            </div>
         </div>
     </div>
     <footer>

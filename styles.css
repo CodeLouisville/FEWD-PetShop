@@ -1,3 +1,390 @@
+@font-face {
+    font-family: Roboto;
+    src: url('Roboto-Regular.woff2');
+    font-weight: normal;
+}
+
 body {
-    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(43, 43, 43);
+    max-width: 375px;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    /* max-width: 375px; */
+}
+
+.find {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #003964;
+    padding: 3.5%;
+}
+
+.find p {
+    margin: 0px;
+}
+
+.banner {
+    background: #074980;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    max-width: 38%;
+    margin: 5%;
+}
+
+.search {
+    margin-bottom: 5%;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    width: 375px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.li-dog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #f85c62;
+    width: 375px;
+    height: 80px;
+}
+
+.li-cat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #a77bca;
+    width: 375px;
+    height: 80px;
+}
+
+.li-bird {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #f88824;
+    width: 375px;
+    height: 80px;
+}
+
+.li-fish {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #3f9ce0;
+    width: 375px;
+    height: 80px;
+}
+
+.li-rep {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #39b173;
+    width: 375px;
+    height: 80px;
+}
+
+.hero-section {
+    overflow: hidden;
+    color: #003964;
+    height: 675px;
+    position: relative;
+    margin: 0;
+}
+
+.hero-img-container {
+    position: relative;
+    margin: 0;
+}
+
+.pup-hero {
+    position: absolute;
+    width: 1500px;
+    right: -90%;
+    top: -220px;
+}
+
+.hero-text-div {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-btn {
+    width: 40px;
+}
+
+.schedule-btn {
+    display: block;
+    margin: 0 auto auto 14.5%;
+    padding: 20px 75px;
+    background: #074980;
+    color: white;
+    border: none;
+    border-radius: 7.5px;
+}
+
+.pet-cards {
+    display: grid;
+    grid-template-columns: 400px;
+    /* grid-template-rows: 500px 500px; */
+}
+
+.card-size {
+    width: 375px;
+    height: 469px;
+}
+
+.card-content {
+    padding: 20rem 0 0 1rem;
+}
+
+.shop-btn {
+    color: white;
+    border: solid 1px white;
+    border-radius: 5px;
+    padding: 10px 25px;
+    background-color: rgba(0, 0, 0, 0.575);
+    margin: 10px;
+}
+
+.dog-img {
+    /* grid-column: 2;
+    grid-row: 1; */
+    background-image: url(./assets/card-photos/dogs-card.jpg);
+    background-repeat: no-repeat;
+}
+
+.cat-img {
+    /* grid-row: 2;
+    grid-column: 1; */
+    background-image: url(./assets/card-photos/cats-card.jpg);
+    background-repeat: no-repeat;
+}
+
+.bird-img {
+    /* grid-column: 2;
+    grid-row: 1; */
+    background-image: url(./assets/card-photos/birds-card.jpg);
+    background-repeat: no-repeat;
+}
+
+.fish-img {
+    /* grid-column: 2;
+    grid-row: 1; */
+    background-image: url(./assets/card-photos/fish-card.jpg);
+    background-repeat: no-repeat;
+}
+
+.reptile-img {
+    /* grid-column: 2;
+    grid-row: 1; */
+    background-image: url(./assets/card-photos/reptiles-card.jpg);
+    background-repeat: no-repeat;
+}
+
+.about-doggo {
+    background: #074980;
+}
+
+.about-img {
+    width: 375px;
+    margin-bottom: -4px;
+}
+
+.top-recommendations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #eff3f7;
+    color: black;
+}
+
+.tr-title > h2 {
+    color:#074980;
+}
+
+.tr-card {
+    margin: 50px;
+}
+
+.tr-card > p {
+    margin-bottom: 45px;
+}
+
+.tr-card-px-1 {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    object-position: 50% 85%;
+}
+
+.tr-card-px-2 {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    object-position: 60% 25%;
+}
+
+.cart-btn {
+    background-color:#f88824;
+    border: none;
+    border-radius: 7.5px;
+    color: white;
+    padding: 12.5px 74px 12.5px;
+}
+
+.about-section {
+    background-color: #f85c62;
+}
+
+.about-text-section {
+    text-align: center;
+    padding: 30px;
+}
+
+.about-text-section > p {
+    line-height: 2.5;
+}
+
+.open-sign {
+    width: 375px;
+}
+
+.test-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 30px 100px 30px;
+    text-align: center;
+    background-color: #eff3f7;
+    color: black;
+}
+
+.test-text > h3 {
+    color:#003964;
+    padding-bottom: 30px;
+}
+
+.test-text > p {
+    padding-bottom: 30px;
+}
+
+.text-card {
+    border: 2px solid #f88824;
+    border-radius: 7.5px;
+    padding: 50px 20px;
+    width: 250px;
+    background: white;
+}
+
+.test-px {
+    object-fit: cover;
+    object-position: 50% 50%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+
+.test-card-text {
+    text-align: left;
+}
+
+.corp-section {
+    background-color: #a77bca;
+    color: white;
+    padding-top: 45px;
+    padding-left: 30px;
+}
+
+.contact-section {
+    background-color: #a77bca;
+}
+
+.contact-section > h2 {
+    padding-left: 30px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 75px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+}
+
+input[type="text"] {
+    border: none;
+    border-radius: 3.5px;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+textarea {
+    border: none;
+    border-radius: 3.5px;
+    padding: 10px;
+    margin: 10px 0px;
+    height: 100px;
+}
+
+.submit {
+    border: none;
+    border-radius: 3.5px;
+    color: white;
+    background-color:#f88824;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    line-height: 1.8;
+    padding: 20px;
+    color: white;
+    background-color: #074980;
+    height: 150px;
+}
+
+footer > a {
+    padding: 0px;
+    margin-top: -10px;
 }
