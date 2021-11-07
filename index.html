@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="tablet.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:bold,medium">
     <script src="https://use.fontawesome.com/ed8838ef79.js"></script>
-
     <title>PetShop</title>
 </head>
 <body>
@@ -23,13 +24,13 @@
             </div>
         </div>
         <!-- Might need to go in body / hero-section -->
-        <nav> 
-            <ul>
-                <li><a href="#" class="li-dog">DOGS</a></li>
-                <li><a href="#" class="li-cat">CATS</a></li>
-                <li><a href="#" class="li-bird">BIRDS</a></li>
-                <li><a href="#" class="li-fish">FISH</a></li>
-                <li><a href="#" class="li-rep">REPTILES</a></li>
+        <nav>  
+            <ul id="myLinks" class="nav-links" style="display: none;">
+                <li><a href="#" id="link" class="li-dog">DOGS</a></li>
+                <li><a href="#" id="link" class="li-cat">CATS</a></li>
+                <li><a href="#" id="link" class="li-bird">BIRDS</a></li>
+                <li><a href="#" id="link" class="li-fish">FISH</a></li>
+                <li><a href="#" id="link" class="li-rep">REPTILES</a></li>
             </ul>
         </nav>
     </header>
@@ -39,7 +40,9 @@
             <img src="assets/photos/puppy-hero-bg.jpg" alt="Puppy" class="pup-hero">
         </div>
         <div class="hero-text-div">
-            <img src="assets/photos/menu-icon.svg" alt="Navigation Menu" class="nav-btn">
+            <a class="menu-btn" onclick="menu()">
+                <img src="assets/photos/menu-icon.svg" alt="Navigation Menu" class="nav-btn">
+            </a>
             <h1 class="hero-title">THE BEST CARE FOR YOUR LITTLE ONE</h1>
             <p>Dashchund tail release boxer pomsky dog house, chew toy heel chow chow queak toy. St. bernard shake shih tzu leave it husky.</p>
             <button type="button" class="schedule-btn">SCHEDULE</button>
@@ -177,7 +180,10 @@
     </div>
     <footer>
         <h4>&copy; COPYRIGHT 2021 PAWS CITY PET SUPPLY CO.</h4>
-        <a><h4>PRIVACY POLICY</h4></a>
+        <a href="#"><h4>PRIVACY POLICY</h4></a>
     </footer>
+
+<script src="app.js"></script>
+
 </body>
 </html>
