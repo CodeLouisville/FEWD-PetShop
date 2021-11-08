@@ -1,0 +1,243 @@
+:root {
+    --color-darkblue: #003964;
+    --color-medblue: #074980;
+    --color-liteblue: #3f9ce0;
+    --color-green: #39b173;
+    --color-orange: #f88824;
+    --color-pink: #f85c62;
+    --color-yellow: #f7b129;
+    --color-white: #eff3f7;
+    --color-dark: #222222;
+    --width-L: 992px;
+    --width-M: 768px;
+    --width-S: 375px;
+    --search-L: 50px;
+    font-size: 16px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: 'Roboto Slab', serif;
+}
+
+/* Fonts */
+h1 {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 2.25rem;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 1.75rem;
+    text-transform: uppercase;
+}
+
+li {
+    font-size: 1.75rem;
+    text-transform: uppercase;
+}
+
+p, span {
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-orange);
+}
+
+/* Buttons */
+/* Schedule - Shop - Add to Cart - Send Message */
+
+.body {
+    max-width: var(--width-L);
+    margin: 0;
+    padding: 0;
+}
+
+/* Top Bar */
+.top-bar-sec {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-darkblue);
+
+}
+
+.top-bar {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color-white);
+    height: 2rem;
+    width: var(--width-L);
+}
+
+/* Banner */
+
+.banner-sec {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-medblue);
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: var(--width-L);
+    height: 100px;
+}
+
+.logo-cont {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 120px;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+
+.search-box {
+    border: none;
+    border-radius: 10px 0px 0px 10px;
+    height: var(--search-L);
+    width: 70%;
+}
+
+.search-btn {
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+    background-color: #f88824;
+    color: white;
+    height: var(--search-L);
+    width: var(--search-L);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    width: var(--width-L);
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-yellow);
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-white);
+}
+/* Nav Options */ 
+.li-dog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #f85c62;
+    width: 200px;
+    height: 80px;
+    border-radius: 0px 0px 0px 15px;
+}
+
+.li-cat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #a77bca;
+    width: 200px;
+    height: 80px;
+}
+
+.li-bird {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #f88824;
+    width: 200px;
+    height: 80px;
+}
+
+.li-fish {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #3f9ce0;
+    width: 200px;
+    height: 80px;
+}
+
+.li-rep {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #39b173;
+    width: 200px;
+    height: 80px;
+    border-radius: 0px 0px 15px 0px;
+}
+
+/* Hero */
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-yellow);
+    /* color: var(--color-darkblue); */
+}
+
+.hero-img-cont {
+    display: flex;
+    justify-content: center;
+    width: var(--width-L);
+    overflow: hidden;
+    position: relative;
+}
+
+.hero-img {
+    width: 1200px;
+    object-fit: cover;
+}
+
+#hero-img-position {
+    object-position: 10px -200px;
+}
+
+.menu-btn {
+    display: none;
+}
+
+.hero-text {
+    display: grid;
+    width: var(--width-L);
+    grid-template-columns: 498px;
+    position: absolute;
+    color: var(--color-darkblue);
+}
