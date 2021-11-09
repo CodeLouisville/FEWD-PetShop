@@ -359,6 +359,7 @@ a {
     grid-template-columns: 50px 400px 471px;
     grid-template-rows: 450px;
     width :var(--width-L);
+    overflow: hidden;
 }
 
 .about-text {
@@ -372,11 +373,14 @@ a {
     line-height: 1.8;
 }
 
-.about-img {
-    grid-column: 2;
+.about-img-cont {
+    grid-column: 1;
     grid-row: 1;
+}
+
+.about-img {
     width: 347px;
-    overflow: hidden;
+    margin-left: 25px;
 }
 
 /* Top Recommendations Section */
@@ -473,3 +477,99 @@ a {
     font-size: 1rem;
 }
 
+/* About Store Section */
+
+.about-store {
+    background-color: var(--color-pink);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.about-store-cont {
+    background-color: var(--color-pink);
+    width: var(--width-L);
+    display: grid;
+    grid-template-columns: 50% 10% 40%;
+    grid-template-rows: 400px;
+    align-items: center;
+}
+
+.about-store-content {
+    grid-column: 1;
+    grid-row: 1;
+    /* margin-top: 25px; */
+}
+
+.about-store-content > p {
+    line-height: 1.8;
+    margin-top: 25px;
+}
+
+.about-store-img {
+    grid-column: 3;
+    width: 400px;
+}
+
+/* Testimony Section */
+
+.testimony {
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimony-title {
+    display: flex;
+    flex-direction: column;
+    color:var(--color-darkblue);
+    margin-top: 75px;
+    margin-bottom: 75px;
+    align-items: center;
+}
+
+.testimony-title > p {
+    color:var(--color-dark);
+    margin-top: 25px;
+}
+
+.testimony-card {
+    display: grid;
+    grid-template-columns: 60% 10% 30%;
+    grid-template-rows: 100px 75px;
+    border: 2px solid #f88824;
+    border-radius: 7.5px;
+    padding: 50px 20px;
+    width: 700px;
+    background: white;
+    margin-bottom: 75px;
+}
+
+.testimony-img {
+    grid-column: 3;
+    grid-row: 1/2;
+    object-fit: cover;
+    object-position: 50% 50%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+.testimony-text {
+    grid-column: 1;
+    grid-row: 1;
+    text-align: left;
+    line-height: 1.8;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.testimony-signature {
+    grid-column: 1;
+    grid-row: 2;
+    margin-left: 10px;
+    margin-top: 10px;
+}
