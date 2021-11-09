@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&family=Roboto:wght@500&display=swap" rel="stylesheet">
     <script src="https://use.fontawesome.com/ed8838ef79.js"></script>
+    <script src="https://kit.fontawesome.com/93c39929eb.js" crossorigin="anonymous"></script>
     <title>Pet Shop</title>
 </head>
 <body>
@@ -163,35 +164,46 @@
             </div>
         </div>
     </section>
-    <section class="corporate">
-        <div class="corporate-address">
-            <h2>CORPORATE</h2>
-            <p>1234 W. MAIN ST.</p>
-            <p>LOUISVILLE, KY 40213</p>
-            <p>P:502-555-555</p>
-            <p>E:hello@pawcity.com</p>   
-        </div>
-        <div class="social">
-            <h2>SOCIAL</h2>
-            <div class="social-icons">
-        
+    <section class="purple">
+        <div class="purple-cont">
+            <div class="corporate-address">
+                <h2>CORPORATE</h2>
+                <p>1234 W. MAIN ST.</p>
+                <p>LOUISVILLE, KY 40213</p>
+                </br>
+                <p>P: 502-555-555</p>
+                <p>E: hello@pawcity.com</p>   
+            </div>
+            <div class="social">
+                <h2>SOCIAL</h2>
+                <div class="social-icons">
+                    <span style="font-size: 40px; color:rgba(255, 255, 255, 0.603);"><i class="fab fa-facebook-square"></i></span>
+                    <span style="font-size: 40px; color:rgba(255, 255, 255, 0.603);"><i class="fab fa-twitter-square"></i></span>
+                    <span style="font-size: 40px; color:rgba(255, 255, 255, 0.603);"><i class="fab fa-linkedin"></i></span>
+                    <span style="font-size: 40px; color:rgba(255, 255, 255, 0.603);"><i class="fab fa-google-plus-square"></i></span>
+                </div>
+            </div>
+            <div class="contact">
+                <h2>CONTACT</h2>
+                <div class="contact-form">
+                    <form>
+                        <p>NAME:</p>
+                        <input type="text" class="name" name="name" placeholder="JOHN DOE"> 
+                        <p>EMAIL:</p>
+                        <input type="text" class="email" id="email" name="email" placeholder="jdoe@gmail.com">
+                        <p>MESSAGE:</p>
+                        <textarea id="subject" name="message" placeholder="Please send us a message..."></textarea>
+                        <button type="submit" value="Submit" class="submit">SEND MESSAGE</button>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
-    <section class="contact">
-        <h2>CONTACT</h2>
-        <div class="contact-form">
-            <form>
-                <input type="text" class="name" name="name" placeholder="JOHN DOE"> 
-                <input type="text" class="email" id="email" name="email" placeholder="jdoe@gmail.com">
-                <textarea id="subject" name="message" placeholder="Please send us a message..."></textarea>
-                <button type="submit" value="Submit" class="submit">SEND MESSAGE</button>
-            </form>
-        </div>
-    </section>
     <footer>
-        <p>&copy; COPYRIGHT 2021 PAWS CITY PET SUPPLY CO.</p>
-        <a href="#"><p>PRIVACY POLICY</p></a>
+        <div class="footer-cont">
+            <p>&copy; COPYRIGHT 2021 PAWS CITY PET SUPPLY CO.</p>
+            <p>PRIVACY POLICY</p>
+        </div>
     </footer>
 
 <script src="app.js"></script>
